@@ -1,0 +1,88 @@
+ {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey","Is anyone there?", "Good day"],
+      "responses": ["Hello! 👋 Looking for something pretty today?", "Hi! How can I help you shop today?"]
+    },
+    {
+      "tag": "products",
+      "patterns": ["What products do you sell?", "Show me your items", "What can I buy?", "Accessories?"],
+      "responses": [
+        "We offer trendy clutchers, earrings, watches, and customized gifts 🎁✨",
+        "Our collection includes girly accessories perfect for gifts or self-love!"
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["What is the price?", "How much does it cost?", "Price for this?", "Is it expensive?"],
+      "responses": [
+        "Prices vary depending on the item. Tell me what you're interested in! 💬",
+        "Everything is budget-friendly and stylish 😍. Want to know about a specific product?"
+      ]
+    },
+    {
+      "tag": "social_media",
+      "patterns": ["instagram", "social media", "your handle", "where to contact", "how to message", "whatsapp", "facebook", "online"],
+      "responses": [
+        "You can find us on Instagram at [@boxandbeyond_](https://www.instagram.com/_boxandbeyond_?igsh=MWFzdDZqMXl0emQ4Mw==) 📸 and message us anytime on WhatsApp at https://whatsapp.com/channel/0029Vb6j0rz8vd1IoqZIUs1Y 💬"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": ["How can I order?", "I want to buy", "Place an order", "Can I buy this?"],
+      "responses": [
+        "You can place your order by messaging us directly here or visiting our Instagram store 🛒",
+        "Sure! Tell me the product you love, and I’ll guide you through ordering 💖"
+      ]
+    },
+    {
+      "tag": "custom_gift",
+      "patterns": ["Can I customize a gift?", "Customized gifts?", "Make a personal gift?"],
+      "responses": [
+        "Yes! We love personal touches 🎀. Share your idea and we’ll make it special!",
+        "Absolutely! Let us know what you want to customize — name, photo, quote, anything!"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How long for delivery?", "When will I get it?", "Shipping time?", "Delivery days?"],
+      "responses": [
+        "Delivery usually takes 4–7 working days 🚚",
+        "We ship within 2 days and you'll get it in under a week!"
+      ]
+    }, 
+    {
+      "tag": "earrings",
+      "patterns": ["earrings", "show earrings", "what kind of earrings", "studs", "jhumka"],
+      "responses": ["We have elegant studs, stylish jhumkas, and trendy hoops! ✨ DM us to see the full collection."]
+    },
+    {
+      "tag": "clutchers",
+      "patterns": ["clutchers", "hair clips", "show clutchers", "hair accessories"],
+      "responses": ["Our clutchers are super cute and strong! Matte ones are just🤌. Perfect for everyday & festive use 💁‍♀️"]
+    },
+    {
+      "tag": "hampers",
+      "patterns": ["hampers", "gift hampers", "rakhi hamper", "custom hampers", "combo pack"],
+      "responses": ["Our hampers are perfect for gifting 🎁 You can customize them with accessories, chocolates & love!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Great, thanks!"],
+      "responses": [
+        "You're welcome 💕 Let me know if you need more help!",
+        "Anytime! Happy shopping ✨"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later"],
+      "responses": [
+        "Bye-bye! Hope you find the perfect accessory 💖",
+        "See you soon! Keep shining ✨"
+      ]
+    }
+  ]
+}
+
